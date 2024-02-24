@@ -1,0 +1,927 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#time{
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    font-size: 30px;
+    margin-top: 10%;
+    margin-right: 10px;
+    float: right;
+}
+#p1{
+    margin: 29px;
+    font-size: 40px;
+    line-height: 25px;
+    margin-top: 0%;
+    color: white;
+}
+#p2{
+    margin: 28px;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 18px;
+    color: rgb(161, 0, 0);
+    animation: DataScienceAnimate 2s;
+}
+@keyframes DataScienceAnimate{
+    from{
+        transform: scale(3);
+        color: white;
+    }
+    to{
+        color: rgb(161, 0, 0);
+    }
+}
+#p3{
+    margin: 32px;
+    font-size: 30px;
+    line-height: 20px;
+    height: 0px;
+    color: rgb(255, 255, 255);
+
+
+}
+button{
+    margin: 30px;
+    color: white;
+    font-size: 16px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 1s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+    background-color: white;
+    border-radius: 20px;
+}
+main{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    text-decoration: none;
+    
+}
+#d1{
+   border-right: 1px solid white;
+   width:280px;
+   height:90px;
+   color: white;
+
+}
+#d2{
+    border-right: 1px solid white;
+    width: 250px;
+    height: 90px;
+    padding: 5px;
+    color: white;
+
+}
+#scroll{
+    position: absolute;
+    left: 70%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+#scrollicon{
+    position:absolute;
+    color: white;
+    font-size: 25px;
+    left: 200px;
+    animation: ScrollAnimate 3s infinite;
+}
+@keyframes ScrollAnimate{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+nav{
+    box-sizing: border-box;
+    position: absolute;
+    height: 55px;
+    width: 45%;
+    left: 29%;
+    top: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+#logo{  
+    width: 65px;
+    height: 65px;
+    margin-left:19%;
+    margin-top: 36px;
+    border-radius: 50%;
+    background: transparent;
+}
+ul{
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+   
+    
+}
+nav ul li a{
+    color: darkred;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 30px;
+}   
+#rp{
+color: white;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 2px;
+padding: 2px 2px;
+}
+a:hover{
+    transition: .5s;
+    background-color: white;
+    padding: 3px 3px;
+    border-radius:10px;
+}
+body{
+
+    background:linear-gradient(45deg,#040404,#000000,#656565);
+}
+#sec_page{
+    float: right;
+    margin:100px 30px;
+    
+    
+}
+#l1{
+    color: rgb(5, 68, 5);
+    font-size: 30px;
+    font-weight: bolder;
+}    
+#FD{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}    
+#Info{
+    color:rgb(111, 166, 188);
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+
+}    
+#Name{
+    display: grid;
+    grid-template-columns: auto auto;line-height: 50px;
+    color: white;
+}
+#age{
+    display: grid;
+    grid-template-columns: 451px 451px;
+    color: white;
+}
+#b1{
+    width: 200px;
+    height: 40px;
+    margin-left: 0px;
+    transition-duration: 2s;
+}
+#b1:hover{
+    transform: scale(1.1,1.1);
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    animation: backwards;
+    animation-duration: 5s;
+}
+#img1{
+    margin: 100px 60px;
+    width: 340;
+    height: 350px;
+    border-radius: 12px;
+    transition-duration: 2s;
+}
+#img1:hover{
+    transform: scale(1.2,1.2);
+}
+@media (max-width: 500px) {
+    #img1{
+        width: 240px;
+        height: 250px;
+    }
+}
+#hometab{
+    animation: HomeTabAnimate 5s ;
+}
+@keyframes HomeTabAnimate{
+    from{
+        transform:rotateX(20deg);
+        opacity: .33;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* PROJECT TAB CSS */
+#pro1{
+    margin-top: 15px;
+    margin-left:70%;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    animation: Pro1Animate 3s;
+    
+}
+@keyframes Pro1Animate{
+    from{
+        transform: translate(42px, 18px);;
+    }
+    to{
+        
+    }
+}
+#pro2{
+    box-sizing: border-box;
+    box-shadow: 5px 5px darkred;
+    background-color: #969696;
+    background-color: transparent;
+    width: 90%;
+    height: 550px;
+    overflow: auto;
+    margin-left: 70px;
+    animation: projectTabAnimate 3s;
+}
+@keyframes projectTabAnimate{
+    from{
+        transform:rotateY(-50deg);
+        transition:ease-in;
+        opacity: .5;
+    }
+    to{
+        /* transform:rotateY(10deg); */
+        transition: ease-out;
+        opacity: 1;
+    
+    }
+}
+#cadlogopname{
+    margin-left: 20px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background-color: grey;
+    font-size: 25px;
+    font-weight: bold;
+    height: 200px;
+    width: 200px;
+    padding: 30px 40px;
+    text-align: justify;
+    box-shadow: 0px 2px 18px 0px white;
+}
+#cadintro{
+    margin-top: 45px;
+    margin-right: 200px;
+    margin-left: 25px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    
+}
+#iot{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+#appfront{
+    margin-top:30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+#secpage{
+    margin-top:30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+#MD{
+    float: inline-end;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#pro3{
+    box-sizing: border-box;
+    box-shadow: 5px 5px darkred;
+    background-color:#eef0ea ;
+    background: transparent;
+    height: 600px;
+    width: 90%;
+    margin-top: 120px;
+    margin-left: 70px;
+    overflow: auto;
+}
+#vplogo{
+    box-sizing: border-box;
+    position: absolute;
+    box-shadow: 10px 10px rgb(111, 166, 188);
+    background-color:grey;
+    width: 200px;
+    height: 100px;;
+    top:850px;
+    margin-left: 20px;
+    padding: 30px 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#vpintro{
+    text-align: justify;
+    color: white;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+#vpimg{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+#vpimg1{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+#vpimg2{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+#vpbutton{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#pro4{
+    box-sizing: border-box;
+    background-color: #eef0ea;
+    box-shadow: 5px 5px darkred;
+    width: 90%;
+    height: 550px;
+    margin-top: 120px;
+    margin-left: 70px;
+    background: transparent;
+}
+#cclogo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgb(111, 166, 188);
+    background-color: grey;
+    margin-left: 20px;
+
+}
+#ccintro{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 200px;
+    color: white;
+}
+#ccimg{
+    line-height: 200px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+#ccbutton{
+    margin-left: 800px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#boxes{
+    display: flex;
+}    
+#serviceanimate{
+    animation: serviceAnimate 2s ease-in-out;
+
+}
+@keyframes serviceAnimate{
+    from{
+        transform:rotateX(30deg);
+        opacity: 0.1;
+
+    }
+    to{
+        /* transform: rotateY(30deg); */
+        opacity: 1;
+    }
+    
+}  
+
+#servicebox{
+    box-sizing: border-box;
+    background:transparent;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+    padding-right: 20px;
+    width:92%;
+    height: 550px;
+}
+#sh2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+#sh3{
+    margin-left: 40px;
+    font-size: 20px;
+}
+#development{
+    position: relative;
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-left: 180px;
+    margin-top: 70px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+#development:hover{
+    transform: scale(1.6,1.6);
+}
+#sicon1{
+    margin-left: 45%;
+    font-size: 25px;
+}
+#sdp{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+#ssummary1{
+    font-size: 5px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+#website{
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 5px;
+    transition: all 2s ;
+}
+#website:hover{
+    transform: scale(1.6,1.6);
+}
+#wdicon{
+    margin-left: 45%;
+    font-size: 25px;
+}
+#para{
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+#wdsummary2{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: justify;
+}
+#sdiv3{
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+#sdiv3:hover{
+    transform: scale(1.6,1.6);
+}
+#dcicon{
+    font-size: 20px;
+    margin-left: 45%;
+}
+#dcpara{
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+#dcsummary{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    text-align: justify;
+}
+#boxes2{
+    display: flex;
+    
+}
+#sdiv4{
+    position: relative;
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 180px;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+#sdiv4:hover{
+    transform: scale(1.6,1.6);
+}
+#moicon{
+    font-size: 20px;
+    margin-left: 45%;
+}
+#mopara{
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+#mosummary{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    text-align: justify;
+}
+#sdiv5{
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+#sdiv5:hover{
+    transform: scale(1.6,1.6);
+}
+#ioticon{
+    font-size: 20px;
+    margin-left: 45%;
+}
+#iotpara{
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+#iotsummary{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    text-align: justify;
+}
+#sdiv6{
+    box-sizing: border-box;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+#sdiv6:hover{
+    transform: scale(1.6,1.6);
+}
+#vicon{
+    margin-left: 45%;
+    font-size: 20px;
+}
+#vpara{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#vsummary{
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    margin-top: 8px;
+}
+#anywork{
+    float: right;
+    margin-top: 80px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    background-color:grey;
+}
+#anywork:hover{
+    background-color:white;    
+}
+.Contactmeanimate{
+    height: 800px;
+    animation: cmAnimate 3s;
+}
+@keyframes cmAnimate{
+    from{
+        transform: rotateY(60deg);
+        opacity: 0.3;
+    }
+    to{
+        /* transform: rotateX(20deg); */
+        opacity: 1;
+    }
+}
+#cmbox{
+    box-sizing: border-box;
+    box-shadow: 10px 10px whitesmoke;
+    background-color:rgb(191, 189, 189);
+    width: 85%;
+    height: 600px;
+    align-content: center;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+#cm{
+    font-size: 70px;
+    margin-left:250px;
+    margin-top: 280px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+}
+#have{
+    margin-left: 350px;
+    font-size: 70px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cani{
+    margin-top: 90px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 90px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#cmpara{
+    float: right;
+    margin-right: 70px;
+    text-align:justify;
+    box-sizing: border-box;
+    background:transparent;
+    width: 300px;
+    height: 300px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#name input{
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 300px;
+    font-size:25px;
+    font-weight: bold;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    
+}
+#name ::placeholder{
+    color: black;
+    opacity:.3;
+}
+#pdetails input{
+    box-sizing: border-box;
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-top: 70px;
+    margin-left: 90px;
+    width: 680px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#pdetails ::placeholder{
+    color: black;
+    opacity: .3;
+
+}
+#pdetails button{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 200px;
+}
+#sugganimate{
+    animation: suggeAnimate 2s linear;
+    height: 700px;
+}
+@keyframes suggeAnimate{
+    from{
+        transform:rotateX(-30deg);
+        opacity: 0.2;
+    }
+    to{
+        /* transform: rotateX(50deg); */
+        opacity: 1;
+    }
+}
+#suline{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+div textarea{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 25px;
+    outline: none;
+    background-color: grey;
+}
+#consu{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.suinput{
+    display:inline-block;
+    margin-top: 55px;
+    margin-left: 70px;
+    
+}
+#inputsufn{
+    box-sizing: border-box;
+    background: transparent;
+    border: 0px;
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 300px;
+    font-size: 20px;
+
+}
+#inputsu{
+    margin-left: 15px;
+    box-sizing: border-box;
+    background:transparent;
+    border: 0px;
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 300px;
+    font-size: 20px;
+}
+#inputemail{
+    margin-top: 45px;
+    box-sizing: border-box;
+    background:transparent;
+    border: 0px;
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 620px;
+    font-size: 20px;
+}
+#subutton{
+    width: 200px;
+    height: 30px;
+    margin-left: 1px;
+    margin-top: 70px;
+}
+
+.form{
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 50%;
+    font-size:25px;
+    font-weight: bold;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+
+}
+.submit{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 200px;
+    font-size:25px;
+    font-weight: bold;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.submit:hover{
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: white;
+    transition-duration: 1s;
+    width: 340px;
+}
+#suggestion_submit{
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+    font-weight: bold;
+    margin-top: 50px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#suggestion_submit:hover{
+    background-color:white;
+    color: black;
+    width: 30%;
+    transition-duration: 2s;
+    border-radius: 20px;
+}
