@@ -46,6 +46,43 @@ img{
     transition-duration: 1s;
     cursor: pointer;
 }
+
+/*flipkart analysis  */
+
+.flipkart{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+
+.flipkart h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}   
+
+.flipkart p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.flipkart h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+}
 /* virtual painting */
 .vpaint{
     color:darkred;
