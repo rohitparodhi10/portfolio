@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,#040404,#000000,#656565);
+}
+@keyframes projectAnimate{
+    from{
+        transform: rotateX(-40deg);
+        transition: ease-in;
+        opacity: 0.1;
+    }
+    to{
+        transition: linear;
+        opacity: 1;
+    }
+}
+.CAD{
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    left:5%;
+    top: 25%;
+    animation: projectAnimate 2s;
+}
+.CAD h3{
+    color: rgb(5, 68, 5);
+}
+.CAD h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.CAD p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+}img:hover{
+    width: 300px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+/* Flipkart */
+
+.flipkart{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+
+.flipkart h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.flipkart p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.flipkart h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.ipl{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+
+.ipl h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.ipl p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.ipl h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*game  */
+
+.game{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+
+.game h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.game p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.game h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.game a{
+    color: white;
+    text-decoration: none;
+    color: rgb(31, 31, 221);
+}
+#gameim{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* virtual painting */
+.vpaint{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+.vpaint h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.vpaint p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.vpaint h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    margin-top: 20px;
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+}
+.fraud{
+    margin-top: 105%;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    left: 5%;
+}
+.fraud h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.fraud p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.fraud h4{
+    font-size: 18px;
+    color: white;
+    margin-top:25px ;
+}
