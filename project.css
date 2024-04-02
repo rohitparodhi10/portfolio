@@ -118,6 +118,34 @@ img{
     border-radius: 10px;
 }
 
+/*game  */
+
+.game{
+    color:darkred;
+    font-size: 30px;
+    margin-top: 60%;
+    position: absolute;
+    left:5%;
+}
+
+.game h3{
+    margin-left: 10px;
+    color: rgb(5, 68, 5);
+}
+.game p{
+    color: rgb(111, 166, 188);
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.game h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* virtual painting */
 .vpaint{
     color:darkred;
